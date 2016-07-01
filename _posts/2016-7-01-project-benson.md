@@ -1,1 +1,2 @@
-# Project Benson Blog Post
+
+This is the blog post for project benson.
