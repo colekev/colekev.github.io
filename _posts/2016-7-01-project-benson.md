@@ -52,13 +52,26 @@ That leaves us with a top-five list to focus the gala promotion, under our assum
 
 Now that we knew which five stations to target, we wanted to gain insight into when during the month, which day, and what time day have maximum traffic at those stations.
 
-First, we looked at the net entries, exits and total traffic over the month to see if there was a pattern of traffic spiking or falling. There was a distinct traffic pattern, but it was a pattern that repeated by week, not during a time of month. The traffic below for the Rockefeller Center station is typical of the group.
+First, we looked at the net entries, exits and total traffic over the month to see if there was a pattern of traffic spiking or falling. There was a distinct traffic pattern, but it was a pattern that repeated by week, not during a time of month. The traffic patterns below for the Rockefeller Center and 34 St Herald Square are typical of the group.
 
-![rock_july]({{ site.url }}/images/rock_traffic_july2015.png)
+![rock_july]({{ site.url }}/images/traffic_july.png)
 
 Next, we looked at the average weekly traffic by day of the week. We then see that traffic typically falls siginificantly during the weekend, and it lower on Monday and Friday than during the middle of the work week.
 
 ![traffic_day_week]({{ site.url }}/images/traffic_by_day_of_week.png)
 
+Lastly, looking at the traffic of various stations by hour of day, we see that traffic typically rises for the morning rush (8am to 12pm), falls somewhat during the early afternoon, and rises to it's highest level during the evening rush (4pm to 8pm).
 
+![traffic_hour]({{ site.url }}/images/traff_by_hour.png)
 
+## Final Recommendations
+
+Our final recommendations based on the filtered list of stations, and the best time of week and day for maximum traffic is as follows:
+
+![final_recs]({{ site.url }}/images/final_recommendations.png)
+
+## Lessons Learned
+
+While going into the exercise my team's Python skills were limited, we still were able to use the powerful programming language to provide recommendations based on a detailed analysis. 
+
+As the course progresses, my focus will be on learning to be more concise and efficient with my code.
