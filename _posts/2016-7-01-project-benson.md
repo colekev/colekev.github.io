@@ -9,7 +9,7 @@ WTWY, like many non-profit organizations, funds itself through the generousity o
 
 We made a couple assumptions about the timing of the gala and WTWY's capacity to support the marketing teams:
 1. The gala date will be in August 2016.
-2. WTWY has a limited budget that can only support 2-7 promotional street teams at any given time.
+2. WTWY has a limited budget that can only support 2-3 promotional street teams at any given time.
 
 ## Our Approach
 
@@ -71,6 +71,10 @@ Lastly, looking at the traffic of various stations by hour of day, we see that t
 Our final recommendations based on the filtered list of stations, and the best time of week and day for maximum traffic is as follows:
 
 ![final_recs]({{ site.url }}/images/final_recommendations.png)
+
+The recommended days and times typically fell into the 4pm-8pm, evening rush period, and were focused on the highest traffic days during the middle of the work week. The traffic patterns at Union Square provided some variation, with the 8pm-midnight time period having heavy traffic. These recommendations will allow WTWY to have 2-3 teams on the street at any time, even allowing for teams to transtion from the evening rush at certain stations, then travel to Union Square to complete an 8-hour shift.
+
+We decided to give WTWY the two best times for each of the top stations, knowing that we could expand or shrink the recommendation list based on any feedback around the organization's budget.
 
 ## Lessons Learned
 
