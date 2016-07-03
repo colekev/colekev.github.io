@@ -31,5 +31,34 @@ Once we had all the turnstile data for July 2015 loaded into Python, there was s
 
 ![subwayData]({{ site.url }}/images/subway_data_july_2015.png)
 
-After cleaning the data, we were able to further narrow our station
+## Finding Our Target Stations
+
+After cleaning the data, we were able to further narrow our station/linename targets to 15, based on the total traffic for the month of July 2015.
+
+![top_stations]({{ site.url }}/images/total_traffic.png)
+
+We then made two decisions to further refine the data:
+1. Eliminating 34 ST - PENN STATION because it is so vast and has heavy commuter traffic, assuming that those living outside of New York City will be less willing to attend the gala.
+2. Combining the two UNION SQUARE station/linename combinations as one to reflect the fact that the entrances are close to each other and there are no streets between. The assumptions is that one street team can effectively market to both entrances.
+
+That leaves us with a top-five list to focus the gala promotion, under our assumptions that WTWY has limited resources:
+1. 34 ST - Herald Square
+2. 14 ST - Union Square
+3. 86 ST - 456
+4. 47-50 ST - Rockefeller Center
+5. 72 ST - 123
+
+## What Dates/Times Are Ideal?
+
+Now that we knew which five stations to target, we wanted to gain insight into when during the month, which day, and what time day have maximum traffic at those stations.
+
+First, we looked at the net entries, exits and total traffic over the month to see if there was a pattern of traffic spiking or falling. There was a distinct traffic pattern, but it was a pattern that repeated by week, not during a time of month. The traffic below for the Rockefeller Center station is typical of the group.
+
+![rock_july]({{ site.url }}/images/rock_traffic_july2015.png)
+
+Next, we looked at the average weekly traffic by day of the week. We then see that traffic typically falls siginificantly during the weekend, and it lower on Monday and Friday than during the middle of the work week.
+
+![traffic_day_week]({{ site.url }}/images/traffic_by_day_of_week.png)
+
+
 
