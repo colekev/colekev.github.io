@@ -56,9 +56,11 @@ First, we looked at the net entries, exits and total traffic over the month to s
 
 ![rock_july]({{ site.url }}/images/traffic_july.png)
 
+
 Next, we looked at the average weekly traffic by day of the week. We then see that traffic typically falls siginificantly during the weekend, and it lower on Monday and Friday than during the middle of the work week.
 
 ![traffic_day_week]({{ site.url }}/images/traffic_by_day_of_week.png)
+
 
 Lastly, looking at the traffic of various stations by hour of day, we see that traffic typically rises for the morning rush (8am to 12pm), falls somewhat during the early afternoon, and rises to it's highest level during the evening rush (4pm to 8pm).
 
