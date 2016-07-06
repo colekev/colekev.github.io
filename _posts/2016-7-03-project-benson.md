@@ -6,7 +6,7 @@ This past week I began a more intense journey as part of the [Metis Data Science
 
 ## Goals
 
-WTWY, like many non-profit organizations, funds itself through the generousity of others who share its mission. Therefore, the focus of any effort to find the right people to attend its gala, be its advocate, and contribute to the cause must incorporate data from disparate sources to find the right demographic.
+WTWY, like many nonprofit organizations, funds itself through the generosity of others who share its mission. Therefore, the focus of any effort to find the right people to attend its gala, be its advocate, and contribute to the cause must incorporate data from disparate sources to find the right demographic.
 
 ## Assumptions
 
@@ -28,9 +28,9 @@ Our approach focused on finding th subway stations located at the nexus of three
 
 Once we had all the turnstile data for July 2015 loaded into Python, there was still quite a bit of cleaning and calculation needed to provide meaningful numbers on which to base our analysis. 
 
-1. The turnsile data only provided the cumulative number of entries and exits, not the net amount for any particular time period. We used a [Python loop](http://www.tutorialspoint.com/python/python_loops.htm) function to go through the data and calculate the net entries and exits for each period, then created a new column for total traffic (entries plus exits).
+1. The turnstile data only provided the cumulative number of entries and exits, not the net amount for any particular time period. We used a [Python loop](http://www.tutorialspoint.com/python/python_loops.htm) function to go through the data and calculate the net entries and exits for each period, then created a new column for total traffic (entries plus exits).
 2. The MTA collected most of its turnstile data at regular, four-hour intervals of midnight, 4am, 8am, etc. However, there were many instances where the data was an hour off of the regular schedule, and some observation times were seemingly random. To help with our time analysis, we rounded all time periods to the nearest hour, and eliminated the small proportion of data that far removed from the regular schedule.
-3. The "STATION" names in the data set often included what were actually multiple stations, e.g. "86 ST" included the distinct staions for the 1, 456, BC, N and R trains. We decided to group all of our data by not only station, but also "LINENAME".
+3. The "STATION" names in the data set often included what were actually multiple stations, e.g. "86 ST" included the distinct stations for the 1, 456, BC, N and R trains. We decided to group all of our data by not only station, but also "LINENAME".
 
 ![subwayData]({{ site.url }}/images/subway_data_july_2015.png)
 
@@ -60,7 +60,7 @@ First, we looked at the net entries, exits and total traffic over the month to s
 ![rock_july]({{ site.url }}/images/traffic_july.png)
 
 
-Next, we looked at the average weekly traffic by day of the week. We then see that traffic typically falls siginificantly during the weekend, and it lower on Monday and Friday than during the middle of the work week.
+Next, we looked at the average weekly traffic by day of the week. We then see that traffic typically falls significantly during the weekend, and it lower on Monday and Friday than during the middle of the work week.
 
 ![traffic_day_week]({{ site.url }}/images/traffic_by_day_of_week.png)
 
@@ -75,7 +75,7 @@ Our final recommendations based on the filtered list of stations, and the best t
 
 ![final_recs]({{ site.url }}/images/final_recommendations.png)
 
-The recommended days and times typically fell into the 4pm-8pm, evening rush period, and were focused on the highest traffic days during the middle of the work week. The traffic patterns at Union Square provided some variation, with the 8pm-midnight time period having heavy traffic. These recommendations will allow WTWY to have 2-3 teams on the street at any time, even allowing for teams to transtion from the evening rush at certain stations, then travel to Union Square to complete an 8-hour shift.
+The recommended days and times typically fell into the 4pm-8pm, evening rush period, and were focused on the highest traffic days during the middle of the work week. The traffic patterns at Union Square provided some variation, with the 8pm-midnight time period having heavy traffic. These recommendations will allow WTWY to have 2-3 teams on the street at any time, even allowing for teams to transition from the evening rush at certain stations, then travel to Union Square to complete an 8-hour shift.
 
 We decided to give WTWY the two best times for each of the top stations, knowing that we could expand or shrink the recommendation list based on any feedback around the organization's budget.
 
@@ -88,3 +88,5 @@ As the course progresses, my focus will be on learning to be more concise and ef
 ## Code & Presentation
 
 Here are links at my [GitHub repository](https://github.com/colekev/project-benson-mta-data) to my project group's [code](https://github.com/colekev/project-benson-mta-data/blob/master/mta_july_2015.ipynb) and [presentation](https://github.com/colekev/project-benson-mta-data/blob/master/Benson%20project.pdf).
+
+
