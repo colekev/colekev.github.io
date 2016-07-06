@@ -84,3 +84,7 @@ We decided to give WTWY the two best times for each of the top stations, knowing
 While going into the exercise my team's Python skills were limited, we still were able to use the powerful programming language to provide recommendations based on a detailed analysis. 
 
 As the course progresses, my focus will be on learning to be more concise and efficient with my code.
+
+## Code & Presentation
+
+Here are links to my project group's [code](project-benson-mta-data/mta_july_2015.ipynb) and [presentation](project-benson-mta-data/Benson project.pdf).
