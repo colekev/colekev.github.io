@@ -87,4 +87,4 @@ As the course progresses, my focus will be on learning to be more concise and ef
 
 ## Code & Presentation
 
-Here are links to my project group's [code](https://github.com/colekev/project-benson-mta-data/blob/master/mta_july_2015.ipynb) and [presentation](https://github.com/colekev/project-benson-mta-data/blob/master/Benson%20project.pdf).
+Here are links at my [GitHub repository](https://github.com/colekev/project-benson-mta-data) to my project group's [code](https://github.com/colekev/project-benson-mta-data/blob/master/mta_july_2015.ipynb) and [presentation](https://github.com/colekev/project-benson-mta-data/blob/master/Benson%20project.pdf).
