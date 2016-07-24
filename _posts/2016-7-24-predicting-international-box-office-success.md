@@ -1,4 +1,3 @@
-
 ---
 layout: post
 ---
@@ -20,7 +19,7 @@ Right on a film's Box Office Mojo main page were a few potential important data:
 2. Genre
 3. Rating
 
-I also saw that each film listed it's top directors and actors, with links to their own Box Office Mojo webpages. This gave me an idea to add a little more than only the data from the film's main page to the analysis: **I could find out if the film's director and lead actor have had a history of foreign box office success.**
+I also saw that each film listed its top directors and actors, with links to their own Box Office Mojo web pages. This gave me an idea to add a little more than only the data from the film's main page to the analysis: **I could find out if the film's director and lead actor have had a history of foreign box office success.**
 
 Here are the pieces of information I took from the film's main page.
 ![moviePage]({{ site.url }}/images/movie_page.png)
@@ -29,9 +28,9 @@ Here are the pieces of information I took from the film's main page.
 
 Once I figured out how to access the director's and actor's move pages, I needed to decided what measure to use to gauge their previous foreign success.
 
-I need that I could only use metrics from film's released before the film being predicted for relevance for future predictions. Therefore I looked at only film's made within the five years prior to the film predicted, and calucated the average foreign percentage for each film's director and lead actor.
+I need that I could only use metrics from film's released before the film being predicted for relevance for future predictions. Therefore I looked at only film's made within the five years prior to the film predicted, and calculated the average foreign percentage for each film's director and lead actor.
  
-## Getting an Inital View
+## Getting an Initial View
 
 Once I had the data I wanted for my analysis, I needed to take an initial look to see which data looked useful, and if any [transformations](https://en.wikipedia.org/wiki/Data_transformation_(statistics)) were necessary.
 
@@ -49,7 +48,7 @@ I decided to move forward only using my three most siginficant [features](https:
 
 ## Training, Cross-Validation & Testing
 
-The next steps were to split the data into training and testing sets (75%-25%), and perform cross-valuidation on the training data for feature selection insight. Then I would apply the linear regression model derived from the training data on the testing set to gauge its accuracy on an out-of-sample data set.
+The next steps were to split the data into training and testing sets (75%-25%), and perform cross-validation on the training data for feature selection insight. Then I would apply the linear regression model derived from the training data on the testing set to gauge its accuracy on an out-of-sample data set.
 
 I inlcuded the untransformed budget data and ratings in the cross-validation process to make sure I hadn't made a mistake assuming that they weren't relevant, then calucated the average [mean squared error](https://en.wikipedia.org/wiki/Mean_squared_error) on five different cross-validation fold.
 
