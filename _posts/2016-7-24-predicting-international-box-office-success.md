@@ -61,4 +61,4 @@ I then applied the training model on the testing set, and to my pleasant surpris
 
 ## Code & Presentation
 
-Here are links to my [GitHub repository](https://github.com/colekev/project-benson-mta-data) that houses my project group's [code](https://github.com/colekev/project-benson-mta-data/blob/master/mta_july_2015.ipynb) and [presentation](https://github.com/colekev/project-benson-mta-data/blob/master/Benson%20project.pdf).
+Here are links to my [GitHub repository](https://github.com/colekev/project-luther-movie-data) that houses my project [code](https://github.com/colekev/project-luther-movie-data/blob/master/project_luther_movie-analysis-Copy1.ipynb) and [presentation](https://github.com/colekev/project-luther-movie-data/blob/master/luther_project_presentation.pdf).
