@@ -12,9 +12,9 @@ I wanted to find the most relevant features for predicting the percentage of a f
 
 ## The Data
 
-I wanted to spend as much time as possible analyzing the data, so I avoided bringing together data from multiple sites, or trying to draw conclusions with little chance of statistical significance. 
+I wanted to spend as much time as possible analyzing the data, so I avoided bringing together data from multiple sites. 
 
-Right on a film's Box Office Mojo main page were a few potential important data: 
+Right on a film's Box Office Mojo main page were some potentially important data: 
 
 1. Budget
 2. Genre
@@ -27,9 +27,9 @@ Here are the pieces of information I took from the film's main page.
 
 ## How to Measure a Director/Actor's Foreign Success
 
-Once I figured out how to access the director's and actor's move pages, I needed to decided what measure to use to gauge their previous foreign success.
+Once I figured out how to access the director's and actor's movie pages, I needed to decided what measure to use to gauge their previous foreign success.
 
-I knew that I could only use metrics from films released before the film being predicted for relevance for future predictions. Therefore I looked at only films made within the five years prior to the film predicted, and calculated the average foreign percentage for each film's director and lead actor.
+I knew that I could only use metrics from films released before the film being predicted. Films released after the date wouldn't provide relevant data for making future predictions. Therefore I looked at only films made within the five years prior to the film predicted, and calculated the average foreign percentage for each film's director and lead actor.
  
 ## Getting an Initial View
 
@@ -41,7 +41,7 @@ While the historical foreign success of the film's director (center plot) and le
 
 ![budget_log]({{ site.url }}/images/budget_log.png)
 
-Unfortunately, the statistical significant for the categorical variables genre and rating did not measure nearly as statistically significant for predicting foreign box office percentage. The differences in [p-values](http://www.statsdirect.com/help/basics/pval.htm) between ratings and the other measures were stark.
+The categorical variables genre and rating did not measure nearly as statistically significant for predicting foreign box office percentage. The [p-values](http://www.statsdirect.com/help/basics/pval.htm) for movie ratings were not significant at the 0.05 threshold, unlike the the other features.
 
 ![p_values]({{ site.url }}/images/p_values.png)
 
@@ -51,7 +51,7 @@ I decided to move forward only using my three most significant [features](https:
 
 The next steps were to split the data into training and testing sets (75%-25%), and perform cross-validation on the training data for feature selection insight. Then I would apply the linear regression model derived from the training data on the testing set to gauge its accuracy on an out-of-sample data set.
 
-I included the untransformed budget data and ratings in the cross-validation process to make sure I hadn't made a mistake assuming that they weren't relevant, then I calculated the average [mean squared error](https://en.wikipedia.org/wiki/Mean_squared_error) on five different cross-validation folds.
+I calculated the average [mean squared error](https://en.wikipedia.org/wiki/Mean_squared_error) on five different cross-validation folds for each potential mix of features.
 
 ![cross_validation]({{ site.url }}/images/cross_validation.png)
 
