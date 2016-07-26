@@ -6,7 +6,7 @@ Last week my [Metis Data Science](http://www.thisismetis.com/data-science) summe
 
 ## Goal
 
-When looking at the data readily available on websites like [Box Office Mojo](http://www.boxofficemojo.com/) I noticed that one of the more interesting items found on each film's page was it's percentage of foreign box office. We tend to think of everything, including movies, in their relation to domestic success, but international revenue have been an increasing source of profits for movie studios.
+When looking at the data readily available on websites like [Box Office Mojo](http://www.boxofficemojo.com/) I noticed that one of the more interesting items found on each film's page was its percentage of foreign box office. We tend to think of everything, including movies, in their relation to domestic success, but international revenue has been an increasing source of profits for movie studios.
 
 I wanted to find the most relevant features for predicting the percentage of a film's foreign box office, which could be the difference between a hit or bust for investors and studios.
 
@@ -28,7 +28,7 @@ Here are the pieces of information I took from the film's main page.
 
 Once I figured out how to access the director's and actor's move pages, I needed to decided what measure to use to gauge their previous foreign success.
 
-I need that I could only use metrics from film's released before the film being predicted for relevance for future predictions. Therefore I looked at only film's made within the five years prior to the film predicted, and calculated the average foreign percentage for each film's director and lead actor.
+I knew that I could only use metrics from films released before the film being predicted for relevance for future predictions. Therefore I looked at only films made within the five years prior to the film predicted, and calculated the average foreign percentage for each film's director and lead actor.
  
 ## Getting an Initial View
 
@@ -36,27 +36,27 @@ Once I had the data I wanted for my analysis, I needed to take an initial look t
 
 ![features]({{ site.url }}/images/grid_3_features.png)
 
-While the historical foreign success of the film's director (center plot) and lead actor (right) looked to have a linear relationship, budget (left) look on a different shape. I did a log transformation on the budget figures, making them much more palatable for linear regression.
+While the historical foreign success of the film's director (center plot) and lead actor (right) looked to have a linear relationship, budget (left) took on a different shape. I did a log transformation on the budget figures, making them much more palatable for linear regression.
 
 ![budget_log]({{ site.url }}/images/budget_log.png)
 
-Unfortunately, the statistical significant for the categorical variables genre and rating did not measure nearly as statistically significant for predicting foreign box office percentage. The different in [p-values](http://www.statsdirect.com/help/basics/pval.htm) between ratings and the other measures was stark.
+Unfortunately, the statistical significant for the categorical variables genre and rating did not measure nearly as statistically significant for predicting foreign box office percentage. The differences in [p-values](http://www.statsdirect.com/help/basics/pval.htm) between ratings and the other measures were stark.
 
 ![p_values]({{ site.url }}/images/p_values.png)
 
-I decided to move forward only using my three most siginficant [features](https://en.wikipedia.org/wiki/Feature_selection): Budget, Director Historical Foreign Success and Lead Actor Historical Foreign Success.
+I decided to move forward only using my three most significant [features](https://en.wikipedia.org/wiki/Feature_selection): Budget, Director's Historical Foreign Success and Lead Actor's Historical Foreign Success.
 
 ## Training, Cross-Validation & Testing
 
 The next steps were to split the data into training and testing sets (75%-25%), and perform cross-validation on the training data for feature selection insight. Then I would apply the linear regression model derived from the training data on the testing set to gauge its accuracy on an out-of-sample data set.
 
-I inlcuded the untransformed budget data and ratings in the cross-validation process to make sure I hadn't made a mistake assuming that they weren't relevant, then calucated the average [mean squared error](https://en.wikipedia.org/wiki/Mean_squared_error) on five different cross-validation fold.
+I included the untransformed budget data and ratings in the cross-validation process to make sure I hadn't made a mistake assuming that they weren't relevant, then I calculated the average [mean squared error](https://en.wikipedia.org/wiki/Mean_squared_error) on five different cross-validation folds.
 
 ![cross_validation]({{ site.url }}/images/cross_validation.png)
 
 The results showed the the lowest error, and therefore most accurate model, included the three features I thought would be most significant.
 
-I then applied the training model on the testing set, and to my pleasant surprise the mean squared error was slightly lower than that on the training set. The [coefficient of determination](https://en.wikipedia.org/wiki/Coefficient_of_determination), or R-squared, was also slightly lower, though not particularly strong at 0.386.
+Then I applied the training model on the testing set, and to my pleasant surprise, the mean squared error was slightly lower than that on the training set. The [coefficient of determination](https://en.wikipedia.org/wiki/Coefficient_of_determination), or R-squared, was also slightly lower, though not particularly strong at 0.386.
 
 ## Code & Presentation
 
