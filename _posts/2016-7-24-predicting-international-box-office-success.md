@@ -14,7 +14,7 @@ I wanted to find the most relevant features for predicting the percentage of a f
 
 I wanted to spend as much time as possible analyzing the data, so I avoided bringing together data from multiple sites, or trying to draw conclusions with little chance of statistical significance. 
 
-Right on a film's Box Office Mojo main page were a few potential important data:
+Right on a film's Box Office Mojo main page were a few potential important data:  
 1. Budget
 2. Genre
 3. Rating
