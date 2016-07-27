@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Creating a Successful Street Marketing Campaign Using NYC Subway Data
 ---
 
 This past week I began a more intense journey as part of the [Metis Data Science](http://www.thisismetis.com/data-science) summer cohort, culminating in our first project: **How can we use various data sources to find the ideal subway stations to promote the annual summer gala for WomenTechWomenYes (WTWY), a fictional non-profit focused on increasing the participation of women in technology?**
