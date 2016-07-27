@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Predicting International Box Office Success.md
+title: Predicting International Box Office Success
 ---
 
 Last week my [Metis Data Science](http://www.thisismetis.com/data-science) summer cohort completed and presented our second project. Unlike our [first project](https://colekev.github.io/project-benson/), this was a solo effort. We were coached up on Python scraping tools [Selenium](http://selenium-python.readthedocs.io/#) and [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), sent out to find meaningful conclusions from movie data using linear regression.
