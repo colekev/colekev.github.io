@@ -10,7 +10,7 @@ In the 2016 offseason, I wrote two articles for Rotoworld on the results of my l
 
 I'm currently enrolled in the selective [Metis data science bootcamp](http://www.thisismetis.com/data-science-bootcamps), furthering my knowledge of Python, SQL, D3, NLP and other programming tools. Upon graduation, I hope to marry my programming skills and finance background by finding a position in the growing field of financial technology.
 
-You can find links to my email, Twitter and GitHib accounts at the bottom of the page.
+You can find links to my email, GitHib, LinkedIn and Twitter accounts at the bottom of the page.
 
 
 
