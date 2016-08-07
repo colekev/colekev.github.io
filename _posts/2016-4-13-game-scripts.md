@@ -15,3 +15,5 @@ In this example, I [plotted the New England Patriots' game scripts](https://gith
 ![patriotsGS]({{ site.url }}/images/gs_2015_NE.png)
 
 I used this analysis last season to show that Lamar Miller's lack of rushing attempts with Joe Philbin at the helm was [more about negative game script](http://rotoviz.com/2015/10/dan-campbell-saved-lamar-millers-season/) than ignoring the run game.
+
+You can find my [R code](https://github.com/colekev/Game_Scripts/blob/master/Game%20Script%20Calc.R) at my [GitHub repo](https://github.com/colekev/Game_Scripts).
