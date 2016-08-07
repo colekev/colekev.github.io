@@ -25,5 +25,5 @@ If you assume that quarterbacks are generally more fairly valued than receivers 
 
 ![rookie_wr_os]({{ site.url }}/images/rook_wr_os_2016_3.png)
 
-You can find my [R code](https://github.com/colekev/Opportunity-Scores-for-Rookie-WRs/blob/master/OS_2016.R) my [GitHub repo](https://github.com/colekev/Opportunity-Scores-for-Rookie-WRs).
+You can find my [R code](https://github.com/colekev/Opportunity-Scores-for-Rookie-WRs/blob/master/OS_2016.R) at my [GitHub repo](https://github.com/colekev/Opportunity-Scores-for-Rookie-WRs).
 
