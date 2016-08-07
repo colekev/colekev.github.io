@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Game Scripts: A Better Way to Quantify Point Differentials
+title: Game Scripts&#58; A Better Way to Quantify Point Differentials
 ---
 
 This analysis builds off the work from Chase Stuart at [Football Perspective](http://www.footballperspective.com/) for determining a better calculation than traditional score differential. 
