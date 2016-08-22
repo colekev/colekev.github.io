@@ -15,16 +15,6 @@ That was three months ago, and ADPs have changed greatly based upon news and shi
 
 This graph can be a little difficult to assess, but there are clearly certain teams where the relationship between quarterback and receivers ADPs vary from the norm. 
 
-There are a few adjustments that make this formula work:
-
-1) The receiver value calculation is the inverse of ADP: the last pick in a 20-round, 12-team draft (240) minus ADP. You then add up all the values for wide receivers and tight ends to come up with the combined score.
-
-2) The weighting of tight end ADP on the total receiver value calculation is cut down to one third of that of wide receivers. This gives a negative affect on opportunity for teams with an elite tight end, but recognizes that tight end and wide receiver production are not completely fungible.
-
-3) The receiving stats accumulated by running backs in an offense are accounted for by discounting the receiver value calculation by the percentage of receiving fantasy points to running backs.
-
-4) Quarterback rushing production is also accounted for by discounting the receiver value calculation by the percentage of quarterback fantasy points from rushing, not throwing.
-
 An easier way to digest the information is a bar chart showing the exact distance from the regression line for every team.
 
 ![qb_value_adp_2016]({{ site.url }}/images/qb_value_22_08_2016.png)
