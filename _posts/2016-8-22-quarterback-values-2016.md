@@ -23,7 +23,7 @@ If you're a late-round quarterback enthusiast, you have a few great choices this
 
 **Matthew Stafford** and **Jay Cutler** don't stir confidence in the hearts of many, but both have mutiple receiving weapons with farily high ADPs this season. Stafford lost Calvin Johnson, but the prospects for Golden Tate and Marvin Jones to replace that production are viewed as favorable. 
 
-Culter could have a healthy *Alshon Jeffery* for all of 2016, plus the addition of 2015 top-10 pick *Kevin White* to the roster. Stafford and Cutler aren't without risks, but their respective ADPs make them huge bargains in comparison to their highly valued receivers.
+Culter could have a healthy **Alshon Jeffery** for all of 2016, plus the addition of 2015 top-10 pick **Kevin White** to the roster. Stafford and Cutler aren't without risks, but their respective ADPs make them huge bargains in comparison to their highly valued receivers.
 
 Always keep in mind that the flip side of these quarterbacks being undervalued is that their receivers could be overvalued. Griffin, Stafford and Culter might not produce the hoped for performances if their respective receivers are being overdrafted on the hope that all will have breakout seasons.
 
