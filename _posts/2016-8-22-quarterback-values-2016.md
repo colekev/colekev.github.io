@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Updated 2016 Quarterback &#58 Receiver Values
+title: 3 Late-Round Quarterbacks to Win 2016 Drafts 
 ---
 
 This is an update to my [previous post](https://colekev.github.io/opportunity-scores-rookie-wr-2016/) on finding over/undervalued receivers based on the realtionship between signal-callers and their receivers.
