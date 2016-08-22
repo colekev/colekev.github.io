@@ -21,7 +21,7 @@ An easier way to digest the information is a bar chart showing the exact distanc
 
 If you're a late-round quarterback enthusiast, you have a few great choices this year. **Robert Griffin III** is surrounded by receiving talent (at least in the minds of fantasy footballers), yet is the 28th quarterback of the board in recent MFL10s. When you add in Griffin's rushing ability, he could be a steal in this year's drafts.
 
-**Matthew Stafford** and **Jay Cutler** don't stir confidence in the hearts of many, but both have mutiple receiving weapons with farily high ADPs this season. Stafford lost Calvin Johnson, but the prospects for Golden Tate and Marvin Jones to replace that production are viewed as favorable. 
+**Matthew Stafford** and **Jay Cutler** don't stir confidence in the hearts of many, but both have mutiple receiving weapons with farily high ADPs this season. Stafford lost **Calvin Johnson**, but the prospects for **Golden Tate** and **Marvin Jones** to replace that production are viewed as favorable. 
 
 Culter could have a healthy **Alshon Jeffery** for all of 2016, plus the addition of 2015 top-10 pick **Kevin White** to the roster. Stafford and Cutler aren't without risks, but their respective ADPs make them huge bargains in comparison to their highly valued receivers.
 
